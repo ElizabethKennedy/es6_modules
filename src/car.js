@@ -1,8 +1,5 @@
-export default class Car {
-
-}
-
-    constructor (id, make, model, year); {
+class Car {
+    constructor (id, make, model, year) {
         
         this.id = id;
         this.make = make;
@@ -10,3 +7,9 @@ export default class Car {
         this.year = year;
     }
 
+
+   }
+
+
+
+export default Car;
