@@ -39,8 +39,9 @@ function showCarDetails(car) {
   makeDisplay.textContent = car.make;
   modelDisplay.textContent = car.model;
   yearDisplay.textContent = car.year;
-  removeBtn.disabled = true;
+  removeBtn.disabled = false;
   removeBtn.setAttribute("data-carId", car.id);
+  
 }
 
 function addCar(event) {
